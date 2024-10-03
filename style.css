@@ -6,3 +6,103 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
+html,
+body {
+    background-color: #0B192C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_header {
+    width: 100%;
+    height: 80px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app_title-header {
+    color: #F5F5F7;
+    font-weight: 400;
+}
+
+.app_section-introduction {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.app_text-p1,
+.app_text-p2,
+.app_text-p3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F5F5F7;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.app_text-p1 span {
+    color: #FFDC7F;
+}
+
+.app_btn-google {
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    color: #0B192C;
+    background-color: #FFDC7F;
+    transition: 0.8s;
+}
+
+.app_btn-google:hover {
+    transform: scale(1.2);
+}
+
+.app_main-aboutus {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.app_title-main {
+    color: #F5F5F7;
+    font-weight: 400;
+}
+
+.app_img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    border: 2px solid #F5F5F7;
+}
+
+.app_text-aboutus {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F5F5F7;
+    text-align: left;
+}
+
+.app_text-aboutus span {
+    color: #FFDC7F;
+} 
